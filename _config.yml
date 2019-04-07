@@ -16,16 +16,13 @@
 title: Stay Hungry,Stay Foolish
 email: jsonlogit@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  No pain,No gain
-  Garbage in,GarBage out
-description: > # this means to ignore newlines until "baseurl:"
-  No pain,No gain
-  Garbage in,Garbage out
+  No pain,No gain                                                                 
+  Garbage in,Garbage out       
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-zhihu_username: 老G知乎
 github_username:  jsonlog
+twitter_username: jsonlog
 
 # Build settings
 markdown: kramdown
