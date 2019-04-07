@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sources
-permalink: /sources/
+title: Source
+permalink: /source/
 ---
 
 Read the fucking source code!
