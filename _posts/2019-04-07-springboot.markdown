@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Springboot"
-date:   2018-04-07
+# date:   2018-04-07
 categories: jekyll snippets
 ---
 # Gradle
