@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Read the fucking source code
+title: Sources
 permalink: /sources/
 ---
 
