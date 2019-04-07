@@ -10,4 +10,4 @@ date:   2018-04-08
 <a href="https://jsonlog.github.io/timd">timd</a><br>
 [timing][timing]
 
-[timing]:   https://github.com/jsonlog/timing
+[timing]:   https://jsonlog.github.io/timing/
