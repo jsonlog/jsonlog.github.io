@@ -31,6 +31,30 @@ dependencies {
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 ```
+```Gradle
+buildscript {
+ext {
+springBootVersion = "1.2.3.RELEASE"
+}
+repositories {
+mavenLocal()
+jcenter()
+maven { url "http://repo.spring.io/snapshot" }
+maven { url "http://repo.spring.io/milestone" }
+maven { url "http://repo.spring.io/plugins-release"}
+}
+dependencies {
+classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+classpath("org.springframework:springloaded:${springBootVersion}")
+classpath("org.springframework.build.gradle:propdeps-plugin:0.0.6")
+}
+
+}
+
+apply plugin: "java"
+apply plugin: "spring-boot" 
+
+```
 # Maven
 ```Maven
 <！ - 从Spring Boot继承默认值 - > 
